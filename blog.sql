@@ -28,7 +28,7 @@ CREATE TABLE post(
     FOREIGN KEY (usuario_id) REFERENCES usuario(id)
 );
 --visualizar
---SELECT * FROM post;
+SELECT * FROM post;
 
 CREATE TABLE comentario(
     texto VARCHAR(250),
@@ -42,7 +42,7 @@ CREATE TABLE comentario(
 );
 
 --visualizar
---SELECT * FROM comentario;
+SELECT * FROM comentario;
 
 --insertar datos en tabla usuario
 

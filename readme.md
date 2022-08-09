@@ -1,0 +1,2 @@
+Trabajo realizado con PostgreSQL.
+Se crea la base de datos, se crean tablas (post, comentario, usuario), se poblan con datos. Se usan Primary y Foreign Keys para relacionar las tablas entre sí. Se usa: Left Join, Inner Join, Full Outer Join, para seleccionar componentes de las tablas.
